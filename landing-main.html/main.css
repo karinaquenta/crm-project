@@ -1,3 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
+
+header{
+    display: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: white;
+    color: black;
+  }
+.logo img{
+    height: 40px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.links li{
+    margin-right: 20px;
+}
+  
+.links a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.2s ease-in-out;
+}
+  
+.links a:hover {
+    border-bottom-color: #fff;
+}
+.signup-buttons {
+    display: flex;
+    align-items: center;
+}
+  
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button1{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button2{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.button:hover {
+    background-color:blue;
+    color: white;
+}
+
+  
+  ----
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.textbox{
+    width: 400px;
+    padding: 20px;
+    padding-top: 80px;
+    padding-left: 20px;
+    background-color: white;
+}
+.button-links{
+    margin-top: 20px;
+}
+  ---
+
+li{ 
+    float: left;
+} 
+
+nav a{
+    padding: 25px 25px;
+    text-decoration:solid;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    float: right;
+    padding-top: 5%;
+    max-width: 40%;
+    max-height: 10%;
+    background-color: white;
+}
+  
+.image-grid img {
+
+    max-width: 80%;
+    max-height: 80%;
+}
+.text-center{
+    background-color: blue;
+    color: white;
+}
+
