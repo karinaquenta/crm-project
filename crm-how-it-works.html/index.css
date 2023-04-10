@@ -189,7 +189,7 @@ nav a {
     justify-content: space-around;
     width: 70vw;
     height: 20vh;
-    flex-wrap: wrap
+
 }
 
 div .box1 {
@@ -343,7 +343,7 @@ div .box4 {
     border-radius: 0 5% 5% 0;
     margin: 0;
     padding: 50px 20px 20px 20px;
-    text-size-adjust: 100%;
+
     color: #fafbfc;
     border: 1px black solid;
     overflow: auto;
@@ -526,3 +526,25 @@ button:active {
         'GRAD' 0,
         'opsz' 48
 }
+@media only screen and (max-width: 1080px) {
+  .img-man {
+    display: none;
+  }
+  .mid-text{
+    width: auto;
+  }
+  .icon{
+    position: relative;
+    width: 80vw;
+    height: 20vh;
+  }
+}
+@media only screen and (max-height: 657px){
+      .img-man {
+    display: none;
+  }
+  .mid-text{
+    width: auto;
+  }
+}
+    
