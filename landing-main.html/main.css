@@ -239,9 +239,19 @@ nav a {
 
 }
 .take-pay{
-    height: 467px;
+    width:480px;
+    height: 486px;
     background-color: #fafbfc;
     border-radius: 5% 0 0 5%;
     border: 1px black solid;
-    padding:10px;
+    padding:30px;
+}
+@media only screen and (max-width: 1080px) {
+    .img-collect-info{
+        display: none;
+    }
+    .take-pay{
+        display: none;
+    }
+ 
 }
