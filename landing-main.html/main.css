@@ -1,15 +1,14 @@
-
 * {
     box-sizing: border-box;
-  }
+}
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: white;
 }
 
-header{
+header {
     display: auto;
     justify-content: center;
     align-items: center;
@@ -21,7 +20,7 @@ header{
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,21 +28,23 @@ nav{
     padding: 0 20px;
     background-color: white;
     color: black;
-  }
-.logo img{
+}
+
+.logo img {
     height: 40px;
 }
-.links{
+
+.links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
-  
-.links li{
+
+.links li {
     margin-right: 20px;
 }
-  
+
 .links a {
     display: inline-block;
     padding: 10px;
@@ -52,25 +53,27 @@ nav{
     border-bottom: 2px solid transparent;
     transition: border-bottom-color 0.2s ease-in-out;
 }
-  
+
 .links a:hover {
     border-bottom-color: #fff;
 }
+
 .signup-buttons {
     display: flex;
     align-items: center;
 }
-  
-.button{
+
+.button {
     display: inline-block;
     padding: 10px 20px;
     margin-left: 10px;
-    background-color:blue;
+    background-color: blue;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
-.button1{
+
+.button1 {
     display: inline-block;
     padding: 10px 20px;
     margin-left: 10px;
@@ -79,7 +82,8 @@ nav{
     text-decoration: none;
     border-radius: 5px;
 }
-.button2{
+
+.button2 {
     display: inline-block;
     padding: 10px 20px;
     margin-left: 10px;
@@ -88,42 +92,41 @@ nav{
     text-decoration: none;
     border-radius: 5px;
 }
-  
+
 .button:hover {
-    background-color:blue;
+    background-color: blue;
     color: white;
 }
 
-  
-  ----
-.container {
+
+---- .container {
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.textbox{
+.textbox {
     width: 400px;
     padding: 20px;
     padding-top: 80px;
     padding-left: 20px;
     background-color: white;
 }
-.button-links{
+
+.button-links {
     margin-top: 20px;
 }
-  ---
 
-li{ 
+--- li {
     float: left;
-} 
-
-nav a{
-    padding: 25px 25px;
-    text-decoration:solid;
 }
 
-.image-grid{
+nav a {
+    padding: 25px 25px;
+    text-decoration: solid;
+}
+
+.image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -134,14 +137,111 @@ nav a{
     max-height: 10%;
     background-color: white;
 }
-  
+
 .image-grid img {
 
     max-width: 80%;
     max-height: 80%;
 }
-.text-center{
+
+.text-center {
+    width: 100%;
     background-color: blue;
     color: white;
 }
 
+/* Andy's css */
+.main-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-hr {
+    width: 80%;
+    padding:30px
+}
+.start-text{ 
+    flex-direction: row;
+    text-align: center;
+    width: 50vw;
+    height: 7vh;
+}
+.start-para{
+    text-align: center;
+    width: 600px;
+    height: 28vh;
+}
+.mid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.mid-text {
+    width: 40vw;
+    height: 61vh;
+    background-color: #0750f8;
+    border-radius: 0 5% 5% 0;
+    margin: 0;
+    padding: 50px 20px 20px 20px;
+    text-size-adjust: 100%;
+    color: #fafbfc;
+    overflow: auto;
+}
+.mid-text h3 {
+    text-align: left;
+    font-size: 18pt;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.img-collect-info{
+    background-color: #fafbfc;
+    border-radius: 5% 0 0 5%;
+    border: 1px black solid;
+    padding:10px;
+}
+/* second half */
+.start-text2{ 
+    flex-direction: row;
+    text-align: center;
+    width: 50vw;
+    height: 7vh;
+}
+.start-para2{
+    text-align: center;
+    width: 600px;
+    height: 28vh;
+}
+.mid2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+.mid-text2 {
+    width: 40vw;
+    height: 61vh;
+    background-color: #0750f8;
+    border-radius: 0 5% 5% 0;
+    margin: 0;
+    padding: 50px 20px 20px 20px;
+    text-size-adjust: 100%;
+    color: #fafbfc;
+    overflow: auto;
+}
+.mid-text2 h3 {
+    text-align: left;
+    font-size: 18pt;
+    padding-bottom: 20px;
+    margin: 0;
+
+ 
+
+}
+.take-pay{
+    height: 467px;
+    background-color: #fafbfc;
+    border-radius: 5% 0 0 5%;
+    border: 1px black solid;
+    padding:10px;
+}
